@@ -1,0 +1,136 @@
+*{margin: 0%;
+padding: 0%;}
+
+.profile-image{
+    
+    width: 100px;
+    height: 120px;
+    border: solid white;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.profile-bio{
+    float: left;
+    padding: 30px;
+    font-family:'Girassol',cursive;
+    color: white;
+}
+
+.profile-bio h1:hover{color: rgb(226, 103, 119);}
+
+.profile-bio h3:hover{color: rgb(189, 226, 103);}
+
+body{
+    background-color: rgb(160, 166, 250);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .container{
+        background-color: rgb(181, 181, 194);
+        color: rgb(23, 22, 24);
+        width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .contact{
+        float: right;
+        padding: 30px; ;
+
+            }
+
+    .contact a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+
+    }
+    .contact a:hover{
+        color: lawngreen;
+    }
+
+    .div-clear{
+        clear: both;
+    }
+
+    hr{
+        border: solid black 2px;
+        width: 100%;
+        border-bottom: none;
+        margin: 20px auto;
+    }
+
+
+    .hr4all{
+        border: black 1px solid;
+        width: 100%;
+        border-bottom: none;
+        margin: 20px auto;
+
+
+    }
+
+
+    /*pesonal info1 start*/
+    .left-div{
+        width: 30%;
+        float: left;
+    }
+
+    .right-div{
+        width: 70%;
+        float: left;
+
+    }
+
+    /*Education Sector start*/
+.edu-div{
+        width: 30%;
+        float: left;
+        background-color: cornsilk;
+        padding: 54px;
+        box-sizing: border-box;
+    }
+
+    .edu-left{
+        padding: 20px;
+        background-color: coral;
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+    }
+    .edu-left a{text-decoration: none;}
+
+    .edu-right{
+        padding: 20px;
+        background-color: cornflowerblue;
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+    }
+    .edu-right a{text-decoration: none;}
+
+    /*footer Sector start*/
+    .foot{
+        background-color: cornflowerblue;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        
+    }
+    .foot a{
+        color: rgb(17, 13, 13);
+        margin: 20px;
+        text-decoration: none;
+        border: solid 1px white;
+        padding: 5px;
+        border-radius: 5px;
+}
+
+.foot a:hover{background-color: rgb(255, 255, 255);}
+
+.foot p{
+    margin: 20px;
+    font-family: 'Creepster', cursive;
